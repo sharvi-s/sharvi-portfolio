@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="24" fill="none"/>
+  <path d="M18 26h22v58h20" fill="none" stroke="#0b67c2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M110 26H88v58H68" fill="none" stroke="#0b67c2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M58 84l14-10v20z" fill="#0b67c2"/>
+  <path d="M88 44l10-18 10 18z" fill="#ff6b2c"/>
+  <ellipse cx="29" cy="23" rx="23" ry="10" fill="#b9d7fb"/>
+  <path d="M6 23v22c0 5.5 10.3 10 23 10s23-4.5 23-10V23" fill="#65a8f0"/>
+  <ellipse cx="29" cy="45" rx="23" ry="10" fill="#84bbf5"/>
+  <ellipse cx="99" cy="35" rx="16" ry="7" fill="#b9d7fb"/>
+  <path d="M83 35v18c0 4.4 7.2 8 16 8s16-3.6 16-8V35" fill="#65a8f0"/>
+  <ellipse cx="99" cy="53" rx="16" ry="7" fill="#84bbf5"/>
+  <rect x="42" y="48" width="44" height="28" rx="8" fill="#05bcec"/>
+  <text x="64" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="800" fill="#fff">ETL</text>
+  <circle cx="64" cy="96" r="17" fill="#7ed957"/>
+  <circle cx="64" cy="96" r="7" fill="#071a46"/>
+</svg>

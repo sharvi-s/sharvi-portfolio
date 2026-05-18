@@ -1,6 +1,6 @@
 # Sharvi Sriperambudur Portfolio
 
-Personal portfolio built with React and Vite, featuring technical projects, experience, skills, and contact information.
+Hello! Thanks for stopping by my personal portfolio that shares a bit about who I am, my experience, and work, I'm excited to make new connections!
 
 ## Tech Stack
 

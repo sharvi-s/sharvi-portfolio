@@ -144,8 +144,8 @@ section{position:relative;z-index:1;max-width:1100px;margin:0 auto;padding:110px
 .proj-img-wrap .img-claimsafe{object-position:center top;background:#fff;}
 .proj-img-wrap .img-texas{object-fit:contain;object-position:center 58%;background:#fff;padding-top:8px;box-sizing:border-box;}
 .proj-img-wrap .img-nypd{object-position:center top;}
-.proj-img-wrap .img-co2{object-fit:cover;object-position:center;background:linear-gradient(135deg,#175e72,#55b77f);}
-.proj-img-wrap .img-finhealth{object-fit:cover;object-position:center;background:#fbfff5;}
+.proj-img-wrap .img-co2{object-fit:cover;object-position:center 42%;background:linear-gradient(135deg,#175e72,#55b77f);padding:0;}
+.proj-img-wrap .img-finhealth{object-fit:cover;object-position:center 38%;background:#fbfff5;padding:0;}
 .proj-card:hover .proj-img-wrap img{transform:scale(1.04);filter:saturate(1.08) contrast(1.04);}
 .proj-action{position:absolute;top:14px;right:14px;width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;background:rgba(0,0,0,.58);border:1px solid rgba(255,255,255,.18);z-index:3;text-decoration:none;backdrop-filter:blur(8px);transition:transform .22s,background .22s,border .22s,box-shadow .22s;}
 .proj-action:hover{transform:translateY(-2px) scale(1.08);background:rgba(91,141,239,.9);border-color:rgba(255,255,255,.36);box-shadow:0 10px 28px rgba(91,141,239,.35);}
@@ -262,6 +262,7 @@ footer p{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-trans
 .sk svg,.sk img{width:20px;height:20px;flex-shrink:0;object-fit:contain;border-radius:4px;padding:0;background:transparent;border:0;box-shadow:none;}
 .brand-icon{filter:none;}
 .brand-badge{width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;border-radius:5px;background:rgba(91,141,239,.2);border:1px solid rgba(169,199,255,.28);color:var(--pw);font-size:8px;font-weight:900;line-height:1;text-align:center;letter-spacing:0;}
+.brand-badge.wide{width:36px;font-size:7.5px;}
 </style>
 </head>
 <body>
@@ -484,7 +485,7 @@ footer p{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-trans
       <div class="skill-cat-chips">
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/python" alt="">Python</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/javascript" alt="">JavaScript</div>
-        <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/openjdk" alt="">Java</div>
+        <div class="sk"><img class="brand-icon" src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="">Java</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/r" alt="">R</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/gnubash" alt="">Bash</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/cplusplus" alt="">C++</div>
@@ -501,7 +502,7 @@ footer p{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-trans
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/pandas" alt="">Pandas</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/scikitlearn" alt="">Scikit-learn</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/spacy" alt="">spaCy</div>
-        <div class="sk"><span class="brand-badge">VA</span>VADER</div>
+        <div class="sk text-only">VADER</div>
         <div class="sk"><img class="brand-icon" src="https://www.statsmodels.org/stable/_images/statsmodels-logo-v2-no-text-light.svg" alt="">statsmodels</div>
       </div>
     </div>
@@ -514,7 +515,7 @@ footer p{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-trans
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/sqlite" alt="">SQLite</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/sqlalchemy" alt="">SQLAlchemy</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/googlecloud" alt="">GCP</div>
-        <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/amazonaws" alt="">AWS</div>
+        <div class="sk"><img class="brand-icon" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="">AWS</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/docker" alt="">Docker</div>
         <div class="sk"><img class="brand-icon" src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/pgadmin.svg" alt="">pgAdmin4</div>
       </div>
@@ -523,12 +524,12 @@ footer p{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-trans
     <div class="skill-cat">
       <div class="skill-cat-label">Pipelines &amp; APIs</div>
       <div class="skill-cat-chips">
-        <div class="sk"><span class="brand-badge">ETL</span>ETL Pipelines</div>
+        <div class="sk"><img class="brand-icon" src="assets/etl-pipelines.svg" alt="">ETL Pipelines</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/fastapi" alt="">FastAPI</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/rabbitmq" alt="">RabbitMQ</div>
-        <div class="sk"><span class="brand-badge">API</span>REST APIs</div>
-        <div class="sk"><span class="brand-badge">WS</span>WebSocket</div>
-        <div class="sk"><span class="brand-badge">PY</span>pika / psycopg2</div>
+        <div class="sk"><img class="brand-icon" src="assets/rest-api.svg" alt="">REST APIs</div>
+        <div class="sk"><img class="brand-icon" src="assets/websocket-workflow.svg" alt="">WebSocket</div>
+        <div class="sk text-only">pika / psycopg2</div>
       </div>
     </div>
 
@@ -539,8 +540,8 @@ footer p{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-trans
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/plotly" alt="">Plotly</div>
         <div class="sk"><img class="brand-icon" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt="">Matplotlib</div>
         <div class="sk"><img class="brand-icon" src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="">Seaborn</div>
-        <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/tableau" alt="">Tableau</div>
-        <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/powerbi" alt="">Power BI</div>
+        <div class="sk"><img class="brand-icon" src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg" alt="">Tableau</div>
+        <div class="sk"><img class="brand-icon" src="assets/power-bi.svg" alt="">Power BI</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/figma" alt="">Figma</div>
       </div>
     </div>
@@ -551,7 +552,7 @@ footer p{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-trans
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/git" alt="">Git</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/github/ffffff" alt="">GitHub</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/jupyter" alt="">Jupyter</div>
-        <div class="sk"><span class="brand-badge">VS</span>VS Code</div>
+        <div class="sk"><img class="brand-icon" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="">VS Code</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/react" alt="">React</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/nodedotjs" alt="">Node.js</div>
         <div class="sk"><img class="brand-icon" src="https://cdn.simpleicons.org/vercel/ffffff" alt="">Vercel</div>
@@ -566,7 +567,7 @@ footer p{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-trans
 <section id="contact" class="z1">
   <div class="s-label" style="text-align:center">05 — Contact</div>
   <h2 class="s-title" style="text-align:center">Get In Touch</h2>
-  <p class="contact-intro">I am actively seeking internships in AI/ML, data engineering, software engineering, software development, and product management. Please feel free to reach out to me!</p>
+  <p class="contact-intro">Actively seeking internships. Reach out to me!</p>
   <div class="mail-scene">
     <div class="envelope" id="envelope">
       <div class="env-body">

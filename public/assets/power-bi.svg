@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="16" fill="#ffffff"/>
+  <defs>
+    <linearGradient id="pbi-a" x1="26" y1="90" x2="78" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe56b"/>
+      <stop offset="1" stop-color="#f6b000"/>
+    </linearGradient>
+    <linearGradient id="pbi-b" x1="52" y1="96" x2="112" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffd33d"/>
+      <stop offset="1" stop-color="#f09a00"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="63" width="34" height="48" rx="7" fill="#ffe66f"/>
+  <rect x="44" y="38" width="38" height="73" rx="8" fill="url(#pbi-a)"/>
+  <rect x="74" y="12" width="36" height="99" rx="2" fill="url(#pbi-b)"/>
+</svg>
